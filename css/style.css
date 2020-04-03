@@ -1106,21 +1106,21 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #FF9000;
+  background: rgba(31,44,108,.65);
   color: #fff;
-  border: 2px solid #FF9000;
+  border: 2px solid rgba(31,44,108,.65);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+  background: rgba(31,44,108,.65) !important;
+  border-color: rgba(31,44,108,.65) !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #FF9000;
-  border: 2px solid #FF9000;
+  color: rgba(31,44,108,.65);
+  border: 2px solid rgba(31,44,108,.65);
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #FF9000;
+  background: rgba(31,44,108,.65);
   color: #fff;
 }
 
