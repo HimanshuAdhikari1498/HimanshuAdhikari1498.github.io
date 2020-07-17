@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  background: rgba(31,44,108,.65);;
 }
 
 .fh5co-heading {
@@ -685,6 +685,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 auto 40px auto;
   position: relative;
   text-align: center;
+  color:#FFFFFF;
 }
 .chart span {
   position: absolute;
@@ -912,15 +913,15 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
 }
-#fh5co-consult .video, #fh5co-consult .choose {
+#fh5co-consult .contact_pic, #fh5co-consult .choose {
   display: inline-block;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-consult .video, #fh5co-consult .choose {
+  #fh5co-consult .contact_pic, #fh5co-consult .choose {
     width: 100% !important;
   }
 }
-#fh5co-consult .video {
+#fh5co-consult .contact_pic {
   display: table;
   width: 50%;
   background-size: cover;
@@ -937,7 +938,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-flex-wrap: wrap;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-consult .video {
+  #fh5co-consult .contact_pic {
     display: none;
   }
 }
@@ -952,15 +953,15 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-.fh5co-video {
+.fh5co-contact_pic {
   overflow: hidden;
 }
 @media screen and (max-width: 992px) {
-  .fh5co-video {
+  .fh5co-contact_pic {
     height: 450px;
   }
 }
-.fh5co-video .overlay {
+.fh5co-contact_pic .overlay {
   position: absolute;
   top: 0;
   left: 0;

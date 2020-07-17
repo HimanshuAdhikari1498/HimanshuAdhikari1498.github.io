@@ -108,8 +108,8 @@
 			scaleColor: false,
 			lineWidth: 4,
 			lineCap: 'butt',
-			barColor: 'rgba(31,44,108,.65)',
-			trackColor:	"#f5f5f5",
+			barColor: '#ffffff',
+			trackColor:	"rgba(31,44,108,.65)",
 			size: 160,
 			animate: 1000
 		});
